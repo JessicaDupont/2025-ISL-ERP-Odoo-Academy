@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+<!--Affichage-->    
+    <menuitem id="academy_menu_root" name="Academy">
+        <menuitem id="academy_first_level_menu" name="Advertisements">
+            <menuitem id="academy_model_menu_action" name="???" action="???"/>
+        </menuitem>
+    </menuitem>
+    
+</odoo>
