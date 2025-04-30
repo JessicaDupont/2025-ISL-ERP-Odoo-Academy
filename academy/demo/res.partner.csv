@@ -1,0 +1,32 @@
+id,name,is_company,company_name,country_id:id,zip,city,street,street2,phone,mobile,email
+hogwarts_school,Poudlard,True,Poudlard École de Sorcellerie,base.uk,,Hogsmeade,Hautes Terres d'Écosse,,02070000000,,contact@poudlard.edu
+demo_harry_potter,Harry Potter,False,,base.uk,NW3,London,4 Privet Drive,Dortoir Gryffondor,02079460001,,harry.potter@poudlard.edu
+demo_hermione_granger,Hermione Granger,False,,base.uk,OX1,Oxford,14 Chestnut Road,Dortoir Gryffondor,02079460002,,hermione.granger@poudlard.edu
+demo_ron_weasley,Ron Weasley,False,,base.uk,PL12,Ottery St Catchpole,Le Terrier,Dortoir Gryffondor,02079460003,,ron.weasley@poudlard.edu
+demo_ginny_weasley,Ginny Weasley,False,,base.uk,PL12,Ottery St Catchpole,Le Terrier,Dortoir Gryffondor,02079460004,,ginny.weasley@poudlard.edu
+demo_luna_lovegood,Luna Lovegood,False,,base.uk,OX39,Ottery,Maison Lovegood,Dortoir Serdaigle,02079460005,,luna.lovegood@poudlard.edu
+demo_neville_longbottom,Neville Longbottom,False,,base.uk,BB10,Lancashire,Maison Longbottom,Dortoir Gryffondor,02079460006,,neville.longbottom@poudlard.edu
+demo_draco_malfoy,Draco Malfoy,False,,base.uk,BY22,Wilts,Manoir Malfoy,Dortoir Serpentard,02079460007,,draco.malfoy@poudlard.edu
+demo_pansy_parkinson,Pansy Parkinson,False,,base.uk,SW5,London,44 Knatchbull Close,Dortoir Serpentard,02079460008,,pansy.parkinson@poudlard.edu
+demo_blaise_zabini,Blaise Zabini,False,,base.uk,E14,London,67 Riverwalk,Dortoir Serpentard,02079460009,,blaise.zabini@poudlard.edu
+demo_seamus_finnigan,Seamus Finnigan,False,,base.uk,BT7,Belfast,3 Oak Avenue,Dortoir Gryffondor,02079460010,,seamus.finnigan@poudlard.edu
+demo_dean_thomas,Dean Thomas,False,,base.uk,SE15,London,22 Walnut Street,Dortoir Gryffondor,02079460011,,dean.thomas@poudlard.edu
+demo_padma_patil,Padma Patil,False,,base.uk,LE2,Leicester,15 Hawthorne Road,Dortoir Serdaigle,02079460012,,padma.patil@poudlard.edu
+demo_parvati_patil,Parvati Patil,False,,base.uk,LE2,Leicester,15 Hawthorne Road,Dortoir Gryffondor,02079460013,,parvati.patil@poudlard.edu
+demo_mcgonagall,Minerva McGonagall,False,,base.uk,IV1,Inverness,6 Thistle Crescent,Professeure de métamorphose,02079460100,,minerva.mcgonagall@poudlard.edu
+demo_snape,Severus Snape,False,,base.uk,SP4,Spinner's End,12 Spinners Row,Professeur de potions,02079460101,,severus.snape@poudlard.edu
+demo_dumbledore,Albus Dumbledore,False,,base.uk,AL5,Godric's Hollow,Maison Dumbledore,Directeur,02079460102,,albus.dumbledore@poudlard.edu
+demo_chourave,Pomona Chourave,False,,base.uk,CF10,Cardiff,1 Greenhouse Lane,Professeure de botanique,02079460103,,pomona.chourave@poudlard.edu
+demo_flitwick,Filius Flitwick,False,,base.uk,BD1,Bradford,7 Harmony Street,Professeur de sortilèges,02079460104,,filius.flitwick@poudlard.edu
+demo_hagrid,Rubeus Hagrid,False,,base.uk,PL12,Ottery St Catchpole,Cabane près de la forêt,Professeur SCM,02079460105,,rubeus.hagrid@poudlard.edu
+demo_slughorn,Horace Slughorn,False,,base.uk,KT2,Kingston,12 Elm Court,Professeur de potions,02079460106,,horace.slughorn@poudlard.edu
+demo_fleur,Fleur Delacour,False,,base.fr,75007,Paris,10 Rue du Dragon,Ancienne élève Beauxbâtons,003314567899,,fleur.delacour@beauxbatons.fr
+demo_gabrielle,Gabrielle Delacour,False,,base.fr,75007,Paris,10 Rue du Dragon,Future élève Beauxbâtons,003314567800,,gabrielle.delacour@beauxbatons.fr
+demo_krum,Viktor Krum,False,,base.bg,1000,Sofia,14 Dumbledore Str,Élève de Durmstrang,00359887890001,,viktor.krum@durmstrang.bg
+demo_karkaroff,Igor Karkaroff,False,,base.bg,1000,Sofia,14 Dumbledore Str,Directeur Durmstrang,00359887890002,,igor.karkaroff@durmstrang.bg
+demo_maxime,Olympe Maxime,False,,base.fr,84000,Avignon,Château Beauxbâtons,Directrice,0033490203040,,olympe.maxime@beauxbatons.fr
+demo_lucius_malfoy,Lucius Malfoy,False,,base.uk,BY22,Wilts,Manoir Malfoy,Père de Draco,02079460202,,lucius.malfoy@famille.org
+demo_narcissa_malfoy,Narcissa Malfoy,False,,base.uk,BY22,Wilts,Manoir Malfoy,Mère de Draco,02079460203,,narcissa.malfoy@famille.org
+demo_xenophilius,Xenophilius Lovegood,False,,base.uk,OX39,Ottery,Le Chicaneur HQ,Père de Luna,02079460204,,x.lovegood@chicaneur.org
+demo_augusta_longbottom,Augusta Longbottom,False,,base.uk,BB10,Lancashire,Maison Longbottom,Grand-mère de Neville,02079460205,,a.longbottom@famille.org
+demo_lupin,Remus Lupin,False,,base.uk,EX22,Devon,Cottage isolé,Ancien professeur,02079460206,,remus.lupin@ordreduphoenix.org

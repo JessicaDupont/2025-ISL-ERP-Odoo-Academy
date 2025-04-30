@@ -9,12 +9,18 @@
     'depends': ['base'],  # Dépendance minimale pour fonctionner avec Odoo
     'data': [
         #security
-        'security/academy.security.xml',
+        'security/security.xml',
         'security/ir.model.access.csv',
         #data
         #wizard
         #views & report
+        'views/academy_staff_views.xml',
         'views/academy.menus.xml',#last in list
+    ],
+    'demo': [
+        'demo/res.partner.csv',
+        'demo/res.users.csv',
+        'demo/academy.staff.csv',
     ],
     'application': True
 }

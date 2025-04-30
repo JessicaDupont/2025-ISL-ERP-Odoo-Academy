@@ -1,0 +1,4 @@
+id,user_id/id,job_title,active
+academy_staff_dumbledore,user_dumbledore,Directeur,1
+academy_staff_mcgonagall,user_mcgonagall,Secretaire,1
+academy_staff_hagrid,user_hagrid,Garde-chasse,1

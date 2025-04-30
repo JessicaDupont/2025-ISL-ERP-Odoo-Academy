@@ -1,0 +1,10 @@
+id,login,password,name,partner_id/id,email,company_id/id,groups_id/id
+user_dumbledore,dumbledore,alohomora,Albus Dumbledore,demo_dumbledore,albus.dumbledore@poudlard.edu,base.main_company,base.group_user
+user_mcgonagall,mcgonagall,animagus,Minerva McGonagall,demo_mcgonagall,minerva.mcgonagall@poudlard.edu,base.main_company,base.group_user
+user_snape,snape,sectumsempra,Severus Snape,demo_snape,severus.snape@poudlard.edu,base.main_company,base.group_user
+user_flitwick,flitwick,wingardium,Filius Flitwick,demo_flitwick,filius.flitwick@poudlard.edu,base.main_company,base.group_user
+user_chourave,chourave,herbivicus,Pomona Chourave,demo_chourave,pomona.chourave@poudlard.edu,base.main_company,base.group_user
+user_hagrid,hagrid,fang123,Rubeus Hagrid,demo_hagrid,rubeus.hagrid@poudlard.edu,base.main_company,base.group_user
+user_slughorn,slughorn,felixfelicis,Horace Slughorn,demo_slughorn,horace.slughorn@poudlard.edu,base.main_company,base.group_user
+user_maxime,maxime,beauxbatons,Olympe Maxime,demo_maxime,olympe.maxime@beauxbatons.fr,base.main_company,base.group_user
+user_lupin,lupin,moony,Remus Lupin,demo_lupin,remus.lupin@ordreduphoenix.org,base.main_company,base.group_user
