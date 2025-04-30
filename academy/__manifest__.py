@@ -9,7 +9,7 @@
     'depends': ['base'],  # Dépendance minimale pour fonctionner avec Odoo
     'data': [
         #security
-        'security/academy.security.xml',
+        'security/security.xml',
         'security/ir.model.access.csv',
         #data
         #wizard

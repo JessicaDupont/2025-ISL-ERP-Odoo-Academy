@@ -3,8 +3,8 @@
 
 <!--Affichage-->    
     <menuitem id="academy_menu_root" name="Academy">
-        <menuitem id="academy_first_level_menu" name="Advertisements">
-            <menuitem id="academy_model_menu_action" name="???" action="???"/>
+        <menuitem id="academy_first_level_menu" name="Settings">
+            <!-- <menuitem id="menu_academy_staff" name="Staff" action="action_academy_staff"/> -->
         </menuitem>
     </menuitem>
     

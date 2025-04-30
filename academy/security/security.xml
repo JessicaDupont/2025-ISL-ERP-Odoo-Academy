@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="module_academy_security" model="ir.module.category">
         <field name="name">Academy</field>
@@ -9,12 +8,5 @@
         <field name="name">User</field>
         <field name="category_id" ref="module_academy_security"/>
         <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
-    </record>
-
-    <record id="academy_group_agent" model="res.groups">
-        <field name="name">Agent</field>
-        <field name="category_id" ref="module_academy_security"/>
-        <field name="implied_ids" eval="[(4, ref('academy_group_user'))]"/>
-        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
     </record>
 </odoo>
