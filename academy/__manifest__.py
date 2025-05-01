@@ -16,6 +16,7 @@
         #views & report
         'views/academy_staff_views.xml',
         'views/academy_instructor_views.xml',
+        'views/academy_student_views.xml',
         'views/academy.menus.xml',#last in list
     ],
     'demo': [
@@ -23,6 +24,7 @@
         'demo/res.users.csv',
         'demo/academy.staff.csv',
         'demo/academy.instructor.csv',
+        'demo/academy.student.csv',
     ],
     'application': True
 }

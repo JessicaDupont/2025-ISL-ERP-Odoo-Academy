@@ -1,0 +1,14 @@
+id,partner_id:id,active
+student_harry_potter,demo_harry_potter,1
+student_hermione_granger,demo_hermione_granger,1
+student_ron_weasley,demo_ron_weasley,1
+student_ginny_weasley,demo_ginny_weasley,1
+student_luna_lovegood,demo_luna_lovegood,1
+student_neville_longbottom,demo_neville_longbottom,1
+student_draco_malfoy,demo_draco_malfoy,1
+student_pansy_parkinson,demo_pansy_parkinson,1
+student_blaise_zabini,demo_blaise_zabini,1
+student_seamus_finnigan,demo_seamus_finnigan,1
+student_dean_thomas,demo_dean_thomas,1
+student_padma_patil,demo_padma_patil,1
+student_parvati_patil,demo_parvati_patil,1

@@ -2,13 +2,12 @@
 from odoo import models, fields
 
 # 2. Classe avec _name, _description, _order
-class Instructor(models.Model):
+class AcademyInstructor(models.Model):
     _name = 'academy.instructor'
     _description = 'Instructor'
 
     # 3. Champs
     # 3.1. simples (Char, Float, Integer, Boolean, Text, etc.)
-    active = fields.Boolean(default=True)
 
     # 3.2. dates / datetime
 
@@ -18,6 +17,7 @@ class Instructor(models.Model):
     # 3.4. calculés
 
     # 3.5. techniques
+    active = fields.Boolean(default=True)
 
     # 4. Contraintes SQL
 
