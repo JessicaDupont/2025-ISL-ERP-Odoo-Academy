@@ -12,9 +12,15 @@ class AcademyInstructor(models.Model):
     # 3.2. dates / datetime
 
     # 3.3. relations
-    user_id = fields.Many2one('res.users', string="Utilisateur", required=True, ondelete='cascade')
+    user_id = fields.Many2one('res.users', 
+                              string="Utilisateur", 
+                              required=True, 
+                              ondelete='cascade')
 
     # 3.4. calculés
+    name = fields.Char(related='user_id.name', store=False, readonly=True)
+    login = fields.Char(related='user_id.login', store=False, readonly=True)
+    email = fields.Char(related='user_id.email', store=False, readonly=True)
 
     # 3.5. techniques
     active = fields.Boolean(default=True)

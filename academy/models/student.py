@@ -6,16 +6,20 @@ class AcademyStudent(models.Model):
     _name = "academy.student"
     _description = "Élève ou étudiant"
 
-
     # 3. Champs
     # 3.1. simples (Char, Float, Integer, Boolean, Text, etc.)
 
     # 3.2. dates / datetime
 
     # 3.3. relations
-    partner_id = fields.Many2one('res.partner',string="Fiche contact",required=True,ondelete='cascade')
+    partner_id = fields.Many2one('res.partner',
+                                 string="Fiche contact",
+                                 required=True,
+                                 ondelete='cascade')
 
     # 3.4. calculés
+    name = fields.Char(related='partner_id.name', store=False, readonly=True)
+    email = fields.Char(related='partner_id.email', store=False, readonly=True)
 
     # 3.5. techniques
     active = fields.Boolean(default=True)

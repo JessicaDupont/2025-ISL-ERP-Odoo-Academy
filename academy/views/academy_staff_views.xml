@@ -20,18 +20,25 @@
             </list>
         </field>
     </record>
-
+    
     <!-- ===== Vue formulaire ===== -->
     <record id="view_academy_staff_form" model="ir.ui.view">
         <field name="name">academy.staff.form</field>
         <field name="model">academy.staff</field>
         <field name="arch" type="xml">
-            <form string="Fiche Staff">
+            <form string="Membre du staff">
                 <sheet>
+                    <h1><field name="name" readonly="1"/></h1>
                     <group>
-                        <field name="user_id"/>
-                        <field name="job_title"/>
-                        <field name="active"/>
+                        <group string="Infos staff">
+                            <field name="job_title"/>
+                            <field name="active"/>
+                        </group>
+                        <group string="Infos utilisateur (lecture seule)">
+                            <field name="user_id" readonly="1"/>
+                            <field name="login" readonly="1"/>
+                            <field name="email" readonly="1"/>
+                        </group>
                     </group>
                 </sheet>
             </form>

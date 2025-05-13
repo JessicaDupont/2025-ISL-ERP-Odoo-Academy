@@ -1,20 +1,27 @@
 <odoo>
-    <record id="view_form_instructor" model="ir.ui.view">
+    <record id="view_academy_instructor_form" model="ir.ui.view">
         <field name="name">academy.instructor.form</field>
         <field name="model">academy.instructor</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>
+                    <h1><field name="name" readonly="1"/></h1>
                     <group>
-                        <field name="user_id"/>
-                        <field name="active"/>
+                        <group string="Infos Instructor">
+                            <field name="active"/>
+                        </group>
+                        <group string="Infos utilisateur (lecture seule)">
+                            <field name="user_id" readonly="1"/>
+                            <field name="login" readonly="1"/>
+                            <field name="email" readonly="1"/>
+                        </group>
                     </group>
                 </sheet>
             </form>
         </field>
     </record>
 
-    <record id="view_list_instructor" model="ir.ui.view">
+    <record id="view_academy_instructor_list" model="ir.ui.view">
         <field name="name">academy.instructor.list</field>
         <field name="model">academy.instructor</field>
         <field name="arch" type="xml">
