@@ -1,0 +1,9 @@
+id,name,user_id/id,job_title,work_email,active,department_id/id
+employee_dumbledore,Albus Dumbledore,user_dumbledore,Directeur,albus.dumbledore@poudlard.edu,1,department_headmaster
+employee_mcgonagall,Minerva McGonagall,user_mcgonagall,Secrétaire,minerva.mcgonagall@poudlard.edu,1,department_secretarial
+employee_hagrid,Rubeus Hagrid,user_hagrid,Garde-chasse,rubeus.hagrid@poudlard.edu,1,department_caretaker
+employee_snape,Severus Snape,user_snape,Professeur de potions,severus.snape@poudlard.edu,1,department_professors
+employee_flitwick,Filius Flitwick,user_flitwick,Professeur de sortilèges,filius.flitwick@poudlard.edu,1,department_professors
+employee_chourave,Pomona Chourave,user_chourave,Professeure de botanique,pomona.chourave@poudlard.edu,1,department_professors
+employee_slughorn,Horace Slughorn,user_slughorn,Professeur de potions,horace.slughorn@poudlard.edu,1,department_professors
+employee_lupin,Remus Lupin,user_lupin,Professeur de DCFM,remus.lupin@ordreduphoenix.org,0,department_professors

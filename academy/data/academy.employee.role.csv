@@ -1,0 +1,4 @@
+id,name,description,color
+academy_role_staff,Staff,"Personnel administratif, direction, secrétariat",2
+academy_role_instructor,Instructor,"Enseignant ou formateur",3
+academy_role_caretaker,Caretaker,"Concierge, garde, etc.",4

@@ -1,3 +1,3 @@
-from . import staff
-from . import instructor
+from . import employee
+from . import employee_role
 from . import student

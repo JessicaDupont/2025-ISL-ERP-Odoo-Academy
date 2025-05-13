@@ -1,7 +1,0 @@
-id,user_id/id,active
-academy_instructor_mcgonagall,user_mcgonagall,1
-academy_instructor_snape,user_snape,1
-academy_instructor_flitwick,user_flitwick,1
-academy_instructor_chourave,user_chourave,1
-academy_instructor_slughorn,user_slughorn,1
-academy_instructor_lupin,user_lupin,0
