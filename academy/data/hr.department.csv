@@ -1,5 +1,9 @@
 id,name
-department_headmaster,Direction
-department_secretarial,Secrétariat
-department_caretaker,Conciergerie
-department_professors,Enseignants
+department_governance,Governance
+department_administration,Administration
+department_academic,Academic
+department_studentlife,Student Life
+department_studentsupport,Student Support
+department_maintenance,Facilities & Maintenance
+department_it,IT & Digital Services
+department_security,Security

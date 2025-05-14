@@ -5,18 +5,18 @@
     <menuitem id="academy_menu" name="Academy">
 
         <menuitem id="academy_people_menu" name="People">
-            <menuitem id="menu_academy_employee" 
+            <!-- <menuitem id="menu_academy_employee" 
                 name="Employees" 
-                action="action_academy_employee"/>
+                action="action_academy_employee"/> -->
             <menuitem id="menu_academy_student" 
                 name="Students" 
                 action="action_academy_student"/>
         </menuitem>
 
         <menuitem id="academy_settings_menu" name="Settings">
-            <menuitem id="menu_academy_employee_role" 
+            <!-- <menuitem id="menu_academy_employee_role" 
                 name="Employee roles" 
-                action="action_academy_employee_roles"/>
+                action="action_academy_employee_roles"/> -->
             <!-- <menuitem id="menu_academy_department" 
                 name="Departments" 
                 action="action_academy_department"/> -->

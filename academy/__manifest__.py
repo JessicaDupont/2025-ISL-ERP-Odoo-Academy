@@ -16,11 +16,9 @@
         'security/ir.model.access.csv',
         #data
         'data/hr.department.csv',
-        'data/academy.employee.role.csv',
+        'data/hr.employee.category.csv',
         #wizard
         #views & report
-        'views/academy_employee_views.xml',
-        'views/academy_employee_role_views.xml',
         'views/academy_student_views.xml',
         'views/academy.menus.xml',#last in list
     ],
@@ -28,7 +26,6 @@
         'demo/res.partner.csv',
         'demo/res.users.csv',
         'demo/hr.employee.csv',
-        'demo/academy.employee.csv',
         'demo/academy.student.csv',
     ],
     'application': True
