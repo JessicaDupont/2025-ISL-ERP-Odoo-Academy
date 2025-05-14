@@ -14,6 +14,8 @@
         #data
         #wizard
         #views & report
+        'views/academy_section_views.xml',
+        'views/academy_course_views.xml',
         'views/academy.menus.xml',#last in list
     ],
     'application': True

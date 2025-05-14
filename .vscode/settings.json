@@ -1,0 +1,6 @@
+{
+    "python.languageServer": "None",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\nessg\\Documents\\GitHub\\odoo"
+      ]
+}

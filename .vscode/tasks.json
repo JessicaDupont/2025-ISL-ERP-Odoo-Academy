@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run-Odoo",    
+        "type": "shell",
+        "command": "python",
+        "args": [
+          "odoo-bin",
+          "--addons-path=addons,..\\tuto_odoo,C:\\Users\\nessg\\Documents\\GitHub\\2025-ISL-ERP-Odoo-Academy", // Change this to your addons path
+          "-d", "rd-demo",
+          "-u", "academy",
+          "--dev", "xml"
+        ],
+  
+
+        "options": {
+          "cwd": "C:\\Users\\nessg\\Documents\\GitHub\\odoo", // Change this to your Odoo path
+  
+          "env": {
+            "PGUSER": "odoo", // Change this to your PostgreSQL user
+            "PGPASSWORD": "odoo", // Change this to your PostgreSQL password
+            "PGHOST": "localhost", // Change this to your PostgreSQL host
+            "PGPORT": "5432" // Change this to your PostgreSQL port
+          }
+        },
+
+        "isBackground": false,
+        "problemMatcher": []
+      }
+    ]
+  }

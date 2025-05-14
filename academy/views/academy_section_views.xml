@@ -1,0 +1,40 @@
+<odoo>
+    <record id="action_academy_section" model="ir.actions.act_window">
+        <field name="name">Sections</field>
+        <field name="res_model">academy.section</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="academy_section_list_view" model="ir.ui.view">
+        <field name="name">academy.section.list.view</field>
+        <field name="model">academy.section</field>
+        <field name="arch" type="xml">
+            <list string="Sections">
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="academy_section_form_view" model="ir.ui.view">
+        <field name="name">academy.section.form.view</field>
+        <field name="model">academy.section</field>
+        <field name="arch" type="xml">
+            <form string="New Section">
+                <group>
+                    <field name="name"/>
+                    <field name="code" />
+                    <field name="description"/>
+                    <field name="degree"/>
+                    <field name="degree_specification" invisible="not degree"/>
+                    <field name="number_of_levels"/>
+                    <field name="levels_ids"/>
+                    <notebook>
+                        <page string="Courses">
+                            <field name="courses_ids"/>
+                        </page>
+                    </notebook>
+                </group>
+            </form>
+        </field>
+    </record>
+</odoo>
