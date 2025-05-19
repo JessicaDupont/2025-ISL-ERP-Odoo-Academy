@@ -17,7 +17,7 @@ class AcademySection(models.Model):
                     ('master','Master'),
                     ('phd','Ph.D.')]
     )
-    number_of_levels = fields.Integer(string="Number of levels", required=True, default=1)
+    number_of_levels = fields.Integer(string="Number of levels", required=True, default=1, inverse="_inverse_number_of_levels")
 
     courses_ids = fields.One2many("academy.course", "section_id", string="Courses")
     levels_ids = fields.One2many("academy.level", "section_id", string="Levels")
@@ -33,7 +33,7 @@ class AcademySection(models.Model):
         
         return record
 
-"""     @api.onchange("number_of_levels")
-    def _onchange_number_of_levels(self):
-        if number_of_levels < len(levels_ids):
-            raise ValidationError("To lower the") """
+    @api.depends("levels_ids")
+    def _inverse_number_of_levels(self):
+        for record in self:
+            record.number_of_levels = 10
